@@ -29,17 +29,17 @@ export default function NavBar() {
             </div>
             <div className={`${active ? '' : 'hidden'} w-full block lg:flex lg:items-center lg:w-auto`}>
                 <div className="text-sm lg:flex-grow">
-                    <div className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white mr-4">
+                    <div className="mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white mr-4 hover:text-yellow-600">
                         <Link href="/">
-                            Home
+                            About Me
                         </Link>
                     </div>
-                    <div className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white mr-4">
+                    <div className="mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white mr-4 hover:text-yellow-600">
                         <Link href="/my-work">
                             My Work
                         </Link>
                     </div>
-                    <div className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white mr-4">
+                    <div className="mt-4 lg:inline-block lg:mt-0 text-teal-200 text-white mr-4 hover:text-yellow-600">
                         <Link href="/contact">
                             Contact
                         </Link>
